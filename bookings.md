@@ -204,8 +204,6 @@ Any student of the FVPT degree or the Institute of Sound Recording may take the 
 To ensure that the insurance cover is not invalidated, you may only put the department's property in a vehicle other than the department's vans under the following conditions:
 
 1. You must be taking the equipment/property to a bona fide location, i.e. the recording must be needed for coursework, or university business; this means that a recording or filmed acquisition must result from the journey.
-
-
 2. The journey must be specifically authorised, in advance, by the stores technician, who will explain the extra conditions you will need to meet.
 3. You will need to have completed Section 1 of the University’s Driver Approval Form (available from the University’s Health and Safety web pages) and have taken this, together with evidence of business insurance, to the Department Vehicle Manager and had section 2 completed by him/her.
 4. You must receive no remuneration (not even expenses) for the recording or shoot.
