@@ -1,17 +1,5 @@
 # Bookable Facilities
 
-- [Bookable Facilities](#bookable-facilities)
-  - [Edit 4 \& 5](#edit-4--5)
-    - [Recording Voiceover in Edit 4](#recording-voiceover-in-edit-4)
-      - [Edit 4](#edit-4)
-      - [Setting up Pro Tools](#setting-up-pro-tools)
-      - [Recording in Pro Tools in Edit 4](#recording-in-pro-tools-in-edit-4)
-      - [Using headphones in the Booth in Edit 4](#using-headphones-in-the-booth-in-edit-4)
-      - [Fault Finding in Edit 4](#fault-finding-in-edit-4)
-  - [Edit 9](#edit-9)
-  - [LTC](#ltc)
-  - [TV Studio](#tv-studio)
-
 ## Edit 4 & 5
 
 ### Recording Voiceover in Edit 4

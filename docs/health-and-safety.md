@@ -1,12 +1,5 @@
 # Health and Safety
 
-- [Health and Safety](#health-and-safety)
-  - [Health and Safety Background](#health-and-safety-background)
-    - [History](#history)
-    - [Health and Safety at Work Act 1974](#health-and-safety-at-work-act-1974)
-  - [Safe Use of Filming and Related Equipment](#safe-use-of-filming-and-related-equipment)
-  - [Self Study Documents](#self-study-documents)
-
 The use by FVPT students of the technical facilities of the Department of Music and Media, e.g.
 its studios, edit rooms, portable equipment, and vehicle, are subject to the following conditions.
 

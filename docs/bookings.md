@@ -1,33 +1,8 @@
-# Booking and Use of Technical Facilities
-
-- [Booking and Use of Technical Facilities](#booking-and-use-of-technical-facilities)
-  - [Overview](#overview)
-    - [Safe working](#safe-working)
-    - [Electrical equipment](#electrical-equipment)
-    - [Movement of equipment](#movement-of-equipment)
-    - [Non-academic usage](#non-academic-usage)
-    - [Copyright](#copyright)
-    - [Promotional purposes](#promotional-purposes)
-    - [Smoking, eating, drinking](#smoking-eating-drinking)
-    - [Loading and unloading vehicles](#loading-and-unloading-vehicles)
-  - [Booking facilities](#booking-facilities)
-    - [Length of bookings](#length-of-bookings)
-    - [General principles for making bookings](#general-principles-for-making-bookings)
-    - [Use of the Sony F5 and F55 cameras](#use-of-the-sony-f5-and-f55-cameras)
-    - [Hard drive loan](#hard-drive-loan)
-    - [Non-attendance for edit room bookings](#non-attendance-for-edit-room-bookings)
-    - [Equipment loan process](#equipment-loan-process)
-  - [Student Booking and Use of the Vans](#student-booking-and-use-of-the-vans)
-    - [Use of vans by FVPT students](#use-of-vans-by-fvpt-students)
-    - [Driver approval](#driver-approval)
-    - [Covid-19 Coronavirus pandemic restrictions](#covid-19-coronavirus-pandemic-restrictions)
-    - [General Regulations](#general-regulations)
-    - [Departmental Driving Test](#departmental-driving-test)
-  - [Using your own car to transport department of music and media property](#using-your-own-car-to-transport-department-of-music-and-media-property)
+# Booking and Use of Technical Facilitiess
 
 ## Overview
 
-The use by FVPT students of the technical facilities of the department of music and media, e.g. its studios, edit rooms, and portable equipment, are subject to the following conditions.
+The use by FPBE students of the technical facilities of the Department of Music and Media, e.g. its studios, edit rooms, and portable equipment, are subject to the following conditions.
 
 Students may **only** use the department’s facilities if one or more of the following conditions are met. Note that bookings for coursework will take priority:
 

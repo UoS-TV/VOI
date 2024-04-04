@@ -1,41 +1,5 @@
 # Television Studio
 
-- [Television Studio](#television-studio)
-  - [Startup and Shutdown Procedure](#startup-and-shutdown-procedure)
-    - [TAR](#tar)
-    - [PCR (Front Row)](#pcr-front-row)
-    - [PCR (Back Row)](#pcr-back-row)
-    - [SCR](#scr)
-    - [VCR](#vcr)
-  - [Operational Responsibilities](#operational-responsibilities)
-    - [Studio Director](#studio-director)
-    - [Producer](#producer)
-    - [PA](#pa)
-    - [Presenter (Talent)](#presenter-talent)
-    - [Floor Manager](#floor-manager)
-    - [Camera Operator](#camera-operator)
-  - [Operational Guides](#operational-guides)
-    - [General](#general)
-      - [Comms](#comms)
-    - [Studio Floor](#studio-floor)
-    - [Production Control Room](#production-control-room)
-      - [Producer Position](#producer-position)
-      - [PA Position](#pa-position)
-      - [Director Position](#director-position)
-      - [Vision Mixer](#vision-mixer)
-      - [Engineer](#engineer)
-      - [Autocue](#autocue)
-      - [GFX](#gfx)
-      - [EVS (Record/Replay)](#evs-recordreplay)
-    - [Sound Control Room](#sound-control-room)
-      - [Sound Mixer](#sound-mixer)
-      - [Gram Operator/Comms Engineer](#gram-operatorcomms-engineer)
-    - [Vision Control Room](#vision-control-room)
-      - [Lighting Position](#lighting-position)
-      - [Vision Engineer](#vision-engineer)
-  - [Technical Reference](#technical-reference)
-    - [Record/Replay, VT Playback and EVS](#recordreplay-vt-playback-and-evs)
-
 ## Startup and Shutdown Procedure
 
 These steps are for a partial startup and shutdown. The TV Studio Technical Manager should be contacted for full startup and shutdown as there is critical infrastructure for DMM in the TV Studio. The shutdown procedure is the same as the startup procedure but in reverse.
@@ -278,12 +242,12 @@ The EVS records continuously on its record channels, sharing the remaining disk 
 
 All the record channels are routable from the Cerebrum control system, meaning any six sources can be recorded. Usually, this would be the main program output and the three studio cameras.
 
-|                       |         6x2 ProRes         | 4x4 ProRes | 6x2 DNxHD  | 4x4 DNxHD |
-| :-------------------- | :------------------------: | :--------: | :--------: | :-------: |
-| Record Channels       |             6              |     4      |     6      |     4     |
-| Playback Channels     |             2              |     4      |     2      |     4     |
-| Video Codec           |      ProRes 422 (SQ)       |            | DNxHD 120  |           |
-| Audio Codec           |         PCM 48kHz          |            |            |           |
-| Video Wrapper         |            MOV             |            | MOV or MXF |           |
-| Audio Record Input    | MADI from Calrec Brio desk |            |            |           |
-| Audio Playback Output |  MADI to Calrec Brio desk  |            |            |           |
+|                       |         6x2 ProRes         |   4x4 ProRes    | 6x2 DNxHD  | 4x4 DNxHD  |
+| :-------------------- | :------------------------: | :-------------: | :--------: | :--------: |
+| Record Channels       |             6              |        4        |     6      |     4      |
+| Playback Channels     |             2              |        4        |     2      |     4      |
+| Video Codec           |      ProRes 422 (SQ)       | ProRes 422 (SQ) | DNxHD 120  | DNxHD 120  |
+| Audio Codec           |         PCM 48kHz          |    PCM 48kHz    | PCM 48kHz  | PCM 48kHz  |
+| Video Wrapper         |            MOV             |       MOV       | MOV or MXF | MOV or MXF |
+| Audio Record Input    | MADI from Calrec Brio desk |      MADI       |    MADI    |    MADI    |
+| Audio Playback Output |  MADI to Calrec Brio desk  |      MADI       |    MADI    |    MADI    |
