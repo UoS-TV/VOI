@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage[a6paper, margin=0.5in]{geometry}
+\usepackage{graphicx}
+\usepackage{qrcode}
+\usepackage{fontspec}
+\usepackage{datatool}
+
+
+\newfontfamily\ProximaNova{fonts/ProximaNova}[
+  % Ligatures = ..., etc.
+  UprightFont = *Regular ,
+  ItalicFont = *RegularItalic ,
+  BoldFont = *Bold ,
+  BoldItalicFont = * BoldItalic ,
+  FontFace = {l}{n}{*Light},
+  FontFace = {l}{it}{*LightItalic},
+  FontFace = {sb}{n}{*Semibold},
+  FontFace = {sb}{it}{*SemiboldItalic},
+  FontFace = {eb}{n}{*Black},
+  FontFace = {eb}{it}{*BlackItalic},
+  Extension = .otf ]
+
+\setmainfont{ProximaNova}
+
+% Load data from CSV file
+\DTLloaddb{data}{links.csv}
+
+\begin{document}
+
+\newcommand{\voiaddress}{https://uos-tv.github.io/voi/TV\%20Studio/}
+
+% Loop through each row in the data
+\DTLforeach{data}{%
+  \Title=title,%
+  \OpRep=op-resp,%
+  \OpGuide=op-guide,%
+  \TechRef=tech-ref,%
+  \Desc=desc%
+}{%
+  \section*{\Title}
+  \begin{center}
+  \Desc \\
+  Operational Responsibilities \\
+  \qrcode[version=5,height=1in,padding]{\voiaddress/op-resp/\#\OpRep} \\
+  Operational Guide(s) \\
+  \qrcode[version=5,height=1in,padding]{\voiaddress/op-guide/\#\OpGuide} \\
+  Technical Reference \\
+  \qrcode[version=5,height=1in,padding]{\voiaddress/tech-ref/\#\TechRef} \\
+  \end{center}
+  \newpage
+}
+
+\end{document}
