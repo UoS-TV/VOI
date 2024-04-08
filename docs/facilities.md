@@ -38,4 +38,4 @@ To provide your artist with fold-back you will need to use your own headphones o
 
 ## LTC
 
-## [TV Studio](tv-studio.html)
+## [TV Studio](/docs/TV%20Studio/index.md)
