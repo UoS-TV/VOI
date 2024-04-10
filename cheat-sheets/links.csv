@@ -1,3 +1,13 @@
-title,op-guide,op-resp,tech-ref,desc
-Item 1,pa,https://example.com/guide1,https://example.com/techref1,Description for Item 1
-EVS Position,https://example.com/operational2,https://example.com/guide2,recordreplay-vt-playback-and-evs,Description for Item 2
+pos,op-guide,op-resp,tech-ref,desc
+Producer Position,producer-position,,,Scan the QR codes to learn more.
+PA Position,pa-position,pa,rdc,Rundown Creator with a 2nd display feed to multiviewers.
+Director Position,director-position,,,Scan the QR codes to learn more.
+Vision Mixer,vision-mixer-position,,,Sony MVS8000G vision mixer.
+Engineering Position,engineer,,,Cerebrum Broadcast Control System.
+Autocue Position,autocue-position,,,AutoScript WinPlus-IP with Rundown Creator integration.
+Graphics/Cap-Gen Position,graphics-position,,,CasparCG with 2 channels of Fill/Key.
+EVS Position,evs-position,evs,recordreplay-vt-playback-and-evs,EVS XT3 with 2x Multicam LSM remotes.
+Sound Mixer,sound-mixer-position,,sound,Calrec Brio sound desk
+Gram Operator/Comms Engineer,gram-operatorcomms-engineer-position,,comms,Ovation Playout System/RTS ODIN/AZ Edit configuration software
+Lighting Position,lighting-position,,lighting,MA Lighting dot2 lighting desk
+Vision Engineering Position,vision-engineering-position,,vision-engineering,Panasonic RCPs
