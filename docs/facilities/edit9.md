@@ -43,7 +43,7 @@ It is always preferable to use an external drive when editing audio or video. Av
 
 It is recommended that you use the Focusrite Scarlett for audio in Pro Tools, and EIZO monitor as the video output.
 
-In Pro Tools, go to **Setup -> Platback Engine** and choose Scarlett 2i2 USB. The session will quit and reopen if you need to change this. Also make sure the video engine is enabled here. The output of the Scarlett 2i2 can be listened to by selecting **AUX** on the Marantz amplifier at the bottom of the rack. Both the Scarlett 2i2 monitor volume and the amplifier volume need to be up.
+In Pro Tools, go to **Setup -> Playback Engine** and choose Scarlett 2i2 USB. The session will quit and reopen if you need to change this. Also make sure the video engine is enabled here. The output of the Scarlett 2i2 can be listened to by selecting **AUX** on the Marantz amplifier at the bottom of the rack. Both the Scarlett 2i2 monitor volume and the amplifier volume need to be up.
 
 <!-- The UltraStudio 4K should be automatically recognised by Pro Tools and the video should be present on the Sony monitor, using the SDI 1 input. Settings can be changed in the “Desktop Video Setup” program. -->
 
