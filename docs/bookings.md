@@ -1,4 +1,4 @@
-# Booking and Use of Technical Facilitiess
+# Booking and Use of Technical Facilities
 
 ## Overview
 
@@ -63,9 +63,9 @@ Please note that the law prohibits smoking in all areas of the department, **inc
 
 Vehicles (except for the departmental van) may only wait in the loading bay whilst they are being loaded or unloaded. When unloading is complete, they must be moved to one of the University’s car parks, and brought back to the building when they are to be loaded. University Security has a policy of clamping vehicles (other than the department's van) left in the loading bay.
 
-## Booking facilities
+## Booking Facilities
 
-Bookings of the department of music and media’s technical facilities and equipment are made via the online booking system. To access this, you will need to follow the instructions in the “Siso registration guide”. Within this system, you can make bookings or view existing bookings for facilities for which you have appropriate permissions. See the “DMM booking QuickStart guide” for further details.
+Bookings of the Department of Music and Media’s technical facilities and equipment are made via the online booking system, SiSo. Within this system, you can make bookings or view existing bookings for facilities for which you have appropriate permissions. See the [DMM Booking Quick-Start Guide](https://surreyac.sharepoint.com/sites/msteams_36c291/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fmsteams%5F36c291%2FShared%20Documents%2FLinked%20guides%2FBooking%20system%2FDMM%20booking%20quickstart%20guide%20v2%2Epdf&parent=%2Fsites%2Fmsteams%5F36c291%2FShared%20Documents%2FLinked%20guides%2FBooking%20system&p=true&ga=1) for registration and further guidance on how to make a booking.
 
 Please note that the online booking system only reserves facilities for your use, it does not give you permission to borrow the equipment; this permission must be obtained by completing the checkout process at the time of booking. The equipment is only available to book once the relevant health and safety assignment has been passed. Cameras and lights need appropriate risk assessments submitted in advance.
 
@@ -144,14 +144,14 @@ The driver approval process is as follows.
 5. When permission has been granted please register for a van test using the sign-up sheet on
 the door of PA16.
 
-### Covid-19 Coronavirus pandemic restrictions
+<!-- ### Covid-19 Coronavirus pandemic restrictions
 
 The following restrictions and recommendations for van use are in place in times of pandemic.
 
 1. Only two people are allowed in the van and the middle seat must not be used
 2. Masks must be worn if students are in different households
 3. Open the windows slightly for extra ventilation
-4. Before and after using the vehicle (department van or own vehicle) all touch points must be wiped down with antibacterial spray or wipes (door handles, steering wheel, gear stick, handbrake, control switches, fuel cap).
+4. Before and after using the vehicle (department van or own vehicle) all touch points must be wiped down with antibacterial spray or wipes (door handles, steering wheel, gear stick, handbrake, control switches, fuel cap). -->
 
 ### General Regulations
 
@@ -172,9 +172,9 @@ The following rules are designed to protect the interests of all users, by regul
 
 ### Departmental Driving Test
 
-Any student of the FVPT degree or the Institute of Sound Recording may take the Department's driving test and then be eligible, subject to the rules above, to drive a Departmental van. Therefore, you should arrange with the Department Vehicle Manager to take the test as soon as possible. During the test you will be asked to produce your driving licence (including the digital counterpart licence found here: <https://www.gov.uk/view-driving-licence> ) and may be required to demonstrate your knowledge of the Highway Code, your ability to drive the van safely, and your knowledge of its dimensions, tyre pressures etc. Please ensure that you have completed the driver approval form and have ready all parts of your driving licence before arriving at the department for your test. The cost of your first test will be borne by the Department; if you fail and need to be re-tested you may be charged for the re-test.
+Any student of the FVPT degree or the Institute of Sound Recording may take the Department's driving test and then be eligible, subject to the rules above, to drive a Departmental van. Therefore, you should arrange with the Department Vehicle Manager to take the test as soon as possible. During the test you will be asked to produce your driving licence (including the digital counterpart licence found here: <https://www.gov.uk/view-driving-licence>) and may be required to demonstrate your knowledge of the Highway Code, your ability to drive the van safely, and your knowledge of its dimensions, tyre pressures etc. Please ensure that you have completed the driver approval form and have ready all parts of your driving licence before arriving at the department for your test. The cost of your first test will be borne by the Department; if you fail and need to be re-tested you may be charged for the re-test.
 
-## Using your own car to transport department of music and media property
+## Using your own car to transport Department of Music and Media property
 
 To ensure that the insurance cover is not invalidated, you may only put the department's property in a vehicle other than the department's vans under the following conditions:
 

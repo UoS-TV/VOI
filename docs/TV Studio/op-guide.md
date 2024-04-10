@@ -14,24 +14,24 @@
 
 ### Director Position
 
-### Vision Mixer
+### Vision Mixer Position
 
 ### Engineer
 
-### Autocue
+### Autocue Position
 
-### GFX
+### Graphics Position
 
-### EVS (Record/Replay)
+### EVS Position
 
 ## Sound Control Room
 
-### Sound Mixer
+### Sound Mixer Position
 
-### Gram Operator/Comms Engineer
+### Gram Operator/Comms Engineer Position
 
 ## Vision Control Room
 
 ### Lighting Position
 
-### Vision Engineer
+### Vision Engineering Position
