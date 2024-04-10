@@ -1,6 +1,6 @@
 # Edit 9
 
-This guide is intended to help in setting up and use of the TV edit room.
+This guide is intended to help in setting up and use of the edit/grading suite.
 
 This room is bookable 24 hours, on the departmental booking system. Lone working is not allowed, and you should ensure someone is around to check on you if using the room late outside office hours. Working past 10pm requires the appropriate late night working pass.
 
