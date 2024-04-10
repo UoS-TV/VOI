@@ -1,7 +1,7 @@
 site_name: Vidmeister Operating Instructions
 theme:
   name: material
-  logo: assets/uos-logo.png
+  logo: assets/uos-logo-white.png
   features:
   - navigation.instant
   - navigation.instant.progress
