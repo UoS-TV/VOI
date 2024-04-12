@@ -1,13 +1,10 @@
 \documentclass{article}
-\usepackage[a6paper, top=0.75in, bottom=0in, left=0.2in, right=0.2in]{geometry}
-\usepackage{titlesec}
+\usepackage[a6paper, top=0.75in, bottom=0.75in, left=0.2in, right=0.2in]{geometry}
 \usepackage{graphicx}
 \usepackage{qrcode}
 \usepackage{fontspec}
 \usepackage{datatool}
 \usepackage{fancyhdr}
-
-\titlespacing*{\section}{0pt}{1mm}{1mm}
 
 \newfontfamily\ProximaNova{fonts/ProximaNova}[
   UprightFont = *Regular ,
@@ -28,54 +25,91 @@
 \newcommand{\leftlogo}{\includegraphics[height=1cm]{../docs/assets/uos-logo-black.png}}
 \newcommand{\rightlogo}{\includegraphics[height=1cm]{../docs/assets/uos-tv-logo-black.png}}
 
-% Define page style
-\fancypagestyle{myfancy}{
-  \fancyhf{}
-  \renewcommand{\headrulewidth}{0pt}
-  \renewcommand{\footrulewidth}{0pt}
-  \fancyhead[L]{\leftlogo}
-  \fancyhead[R]{\rightlogo}
-}
-
 % Load data from CSV file
 \DTLloaddb{data}{links.csv}
 
 \begin{document}
 
-% Apply custom page style
-\pagestyle{myfancy}
-
 \newcommand{\voiaddress}{https://uos-tv.github.io/voi/TV\%20Studio}
 
 % Loop through each row in the data
 \DTLforeach{data}{%
+  \Location=loc,%
   \Title=pos,%
   \OpGuide=op-guide,%
   \OpRep=op-resp,%
   \TechRef=tech-ref,%
   \Desc=desc%
 }{%
+  \ifthenelse{\equal{\Location}{PCR}}{\def\LocationName{Production Control Room}}{}
+  \ifthenelse{\equal{\Location}{SCR}}{\def\LocationName{Sound Control Room}}{}
+  \ifthenelse{\equal{\Location}{VCR}}{\def\LocationName{Vision Control Room}}{}
+  \ifthenelse{\equal{\Location}{STD}}{\def\LocationName{Studio Floor}}{}
+
+  % Define page style
+  \fancypagestyle{myfancy}{
+    \fancyhf{}
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+    \fancyhead[L]{\leftlogo}
+    \fancyhead[R]{\rightlogo}
+    \fancyfoot[c]{\LocationName}
+  }
+
+  % Apply custom page style
+  \pagestyle{myfancy}
+
   \section*{\centering \Title}
   \begin{center}
-    {\footnotesize \Desc} \\\vspace{4pt}
-    \ifx\OpGuide\empty
-    % Do nothing
-    \else
-    \textbf{Operational Guide(s)} \\
-    \qrcode[version=5,height=1in,padding]{\voiaddress/op-guide/\#\OpGuide} \\
-    \fi
-    \ifx\OpRep\empty
-    \else
-    \textbf{Operational Responsibilities} \\
-    \qrcode[version=5,height=1in,padding]{\voiaddress/op-resp/\#\OpRep} \\
-    \fi
-    \ifx\TechRef\empty
-    \else
-    \textbf{Technical Reference} \\
-    \qrcode[version=5,height=1in,padding]{\voiaddress/tech-ref/\#\TechRef} \\
-    \fi
+    \begin{minipage}[t]{0.45\textwidth}
+      \begin{center}
+        \textbf{\large Operational\\ Guide(s)} \\[1em]
+        \ifx\OpGuide\empty
+          N/A
+        \else
+          \qrcode[version=5,height=1.5in]{\voiaddress/op-guide/\#\OpGuide} \\
+        \fi
+      \end{center}
+    \end{minipage}%
+    \hspace{0.05\textwidth}%
+    \begin{minipage}[t]{0.45\textwidth}
+      \begin{center}
+        \textbf{\large Operational\\ Responsibilities} \\[1em]
+        \ifx\OpRep\empty
+          N/A
+        \else
+          \qrcode[version=5,height=1.5in]{\voiaddress/op-resp/\#\OpRep} \\
+        \fi
+      \end{center}
+    \end{minipage}
+
+    \vspace{1em}
+
+    \begin{minipage}[t]{0.45\textwidth}
+      \begin{center}
+        \textbf{\large Technical\\ Reference} \\[1em]
+        \ifx\TechRef\empty
+          N/A
+        \else
+          \qrcode[version=5,height=1.5in]{\voiaddress/tech-ref/\#\TechRef} \\
+        \fi
+      \end{center}
+    \end{minipage}%
+    \hspace{0.05\textwidth}%
+    \begin{minipage}[t]{0.45\textwidth}
+      \begin{center}
+        \textbf{\large Description \\ ~} \\[1em]
+        \ifx\Desc\empty
+        \else
+          \begin{flushleft}
+            \Desc \\
+          \end{flushleft}
+        \fi
+      \end{center}
+    \end{minipage}
+    \vspace{1em}
   \end{center}
-  \newpage
+  \newpage % Start a new page for the next item
 }
 
 \end{document}
