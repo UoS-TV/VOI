@@ -22,11 +22,25 @@
 
 ### Graphics Position
 
+#### Changing dynamic fields
+
+#### Playout
+
 ### EVS Position
 
 ## Sound Control Room
 
 ### Sound Mixer Position
+
+#### Useful Guides
+
+#### Setting up mics
+
+#### Patching
+
+#### Channel setup
+
+#### Mixing
 
 ### Gram Operator/Comms Engineer Position
 
