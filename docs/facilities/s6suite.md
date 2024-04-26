@@ -26,7 +26,7 @@ There is a pair of ATC SCM25A active loudspeakers. We don’t have the analogue 
 
 Read carefully, especially shutting down the S6, which isn’t obvious.
 
-There are 3 mains power plugs on the front wall. (From left to right: loudspeakers, Mac and S6, everything else.)
+There are 3 mains power plugs on the front wall. (From left to right: everything else, Mac and S6, loudspeakers.)
 
 Turn on the Left 2 mains switches. The S6 will now power up. Once everything is powered you can turn on the Loudspeakers.
 
