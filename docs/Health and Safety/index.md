@@ -1,7 +1,6 @@
 # Health and Safety
 
-The use by FVPT students of the technical facilities of the Department of Music and Media, e.g.
-its studios, edit rooms, portable equipment, and vehicle, are subject to the following conditions.
+The use by FPBE students of the technical facilities of the Department of Music and Media, e.g. its studios, edit rooms, portable equipment, and vehicle, are subject to the following conditions.
 
 ## Health and Safety Background
 
@@ -36,6 +35,8 @@ The intention of safety legislation today is rather than to control **processes*
 ## Safe Use of Filming and Related Equipment
 
 So before you can use the university’s video cameras, lights, sound equipment etc you must know how to assess the risks involved in using the equipment and put in place appropriate control measures so while you or your team are using the equipment.
+
+[Risk Assessment](risk-assessment.md)
 
 ## Self Study Documents
 
