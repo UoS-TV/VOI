@@ -127,3 +127,21 @@ The Production Assistant (PA) or Programme Coordinator (PC)...
 - Knows hand signals to cue the presenter and extend or shorten their speech
 
 ## Camera Operator
+
+## Vision Mixer
+
+## Autocue Operator
+
+## Graphics Operator
+
+## EVS Operator
+
+## Sound Mixer
+
+## Sound Assistant
+
+## Gram Op
+
+## Lighting Director
+
+## Vision Engineer

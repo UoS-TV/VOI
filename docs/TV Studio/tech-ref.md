@@ -17,3 +17,24 @@ All the record channels are routable from the Cerebrum control system, meaning a
 | Video Wrapper         |            MOV             |       MOV       | MOV or MXF | MOV or MXF |
 | Audio Record Input    | MADI from Calrec Brio desk |      MADI       |    MADI    |    MADI    |
 | Audio Playback Output |  MADI to Calrec Brio desk  |      MADI       |    MADI    |    MADI    |
+
+
+## Graphics with CasparCG
+
+## Rundown Creator
+
+## Vision Mixer
+
+### Key Links
+
+## Sound
+
+## Comms
+
+## Engineering and Control
+
+## Autocue
+
+## Lighting
+
+## Vision Engineering

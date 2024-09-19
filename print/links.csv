@@ -1,13 +1,14 @@
 loc,pos,op-guide,op-resp,tech-ref,desc
-Production Control Room,Producer Position,producer-position,,,Scan the QR codes to learn more.
-Production Control Room,PA Position,pa-position,pa,rdc,Rundown Creator with a 2nd display feed to multiviewers.
-Production Control Room,Director Position,director-position,,,Scan the QR codes to learn more.
-Production Control Room,Vision Mixer,vision-mixer-position,,,Sony MVS8000G vision mixer.
-Production Control Room,Engineering Position,engineer,,,Cerebrum Broadcast Control System.
-Production Control Room,Autocue Position,autocue-position,,,AutoScript WinPlus-IP with Rundown Creator integration.
-Production Control Room,Graphics/Cap-Gen Position,graphics-position,,,CasparCG with 2 channels of Fill/Key.
-Production Control Room,EVS Position,evs-position,evs,recordreplay-vt-playback-and-evs,EVS XT3 with 2x Multicam LSM remotes.
-Sound Control Room,Sound Mixer,sound-mixer-position,,sound,Calrec Brio sound desk
-Sound Control Room,Gram Operator/Comms Engineer,gram-operatorcomms-engineer-position,,comms,Ovation Playout System/RTS ODIN/AZ Edit configuration software
-Vision Control Room,Lighting Position,lighting-position,,lighting,MA Lighting dot2 lighting desk
-Vision Control Room,Vision Engineering Position,vision-engineering-position,,vision-engineering,Panasonic RCPs
+Production Control Room,Producer Position,producer-position,producer,,Scan the QR codes to learn more.
+Production Control Room,PA Position,pa-position,pa,rundown-creator,Rundown Creator with a 2nd display feed to multiviewers.
+Production Control Room,Director Position,director-position,director,,Scan the QR codes to learn more.
+Production Control Room,Vision Mixer,vision-mixer-position,vision-mixer,vision-mixer,Sony MVS8000G vision mixer.
+Production Control Room,Engineering Position,engineer,,engineering-and-control,Cerebrum Broadcast Control System.
+Production Control Room,Autocue Position,autocue-position,autocue-operator,autocue,AutoScript WinPlus-IP with Rundown Creator integration.
+Production Control Room,Graphics/Cap-Gen Position,graphics-position,graphics-operator,graphics-with-casparccg,CasparCG with 2 channels of Fill/Key.
+Production Control Room,EVS Position,evs-position,evs-operator,recordreplay-vt-playback-and-evs,EVS XT3 with 2x Multicam LSM remotes.
+Sound Control Room,Sound Mixer,sound-mixer-position,sound-mixer,sound,Calrec Brio sound desk
+Sound Control Room,Gram Operator/Comms Engineer,gram-operatorcomms-engineer-position,gram-op,comms,Ovation Playout System/RTS ODIN/AZ Edit configuration software
+Vision Control Room,Lighting Position,lighting-position,lighting-director,lighting,MA Lighting dot2 lighting desk
+Vision Control Room,Vision Engineering Position,vision-engineering-position,vision-engineer,vision-engineering,Panasonic RCPs
+Studio Floor,Floor Manager,floor-manager,floor-manager,,

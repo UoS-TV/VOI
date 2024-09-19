@@ -29,6 +29,7 @@ mainfontoptions:
 - BoldFont = *Bold
 - BoldItalicFont = *BoldItalic
 ---
+<!-- pandoc 'docs/TV Studio/tech-spec.md' --pdf-engine=lualatex --shift-heading=-1 -o print/uos-tv-tech-spec.pdf -->
 
 # Facility Information & Technical Specifications
 
