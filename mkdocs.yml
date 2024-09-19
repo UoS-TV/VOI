@@ -1,4 +1,6 @@
 site_name: Vidmeister Operating Instructions
+theme:
+  name: readthedocs
 # theme:
 #   name: material
 #   logo: assets/uos-logo-white.png
