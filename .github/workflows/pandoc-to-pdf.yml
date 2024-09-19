@@ -31,3 +31,19 @@ jobs:
       with:
         name: uos-tv-tech-spec
         path: print/uos-tv-tech-spec.pdf
+
+    - name: Copy PDF to GitHub Pages directory
+      run: |
+        mkdir -p docs/pdf
+        cp print/uos-tv-tech-spec.pdf docs/pdf/
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.email "your-email@example.com"
+        git config --global user.name "GitHub Actions"
+        git add docs/pdf/uos-tv-tech-spec.pdf
+        git commit -m "Update PDF"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
