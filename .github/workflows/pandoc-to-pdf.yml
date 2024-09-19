@@ -17,18 +17,18 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y pandoc
-        sudo apt-get install -y texlive
-        sudo apt-get install -y texlive-xetex
+        # sudo apt-get install -y texlive
+        # sudo apt-get install -y texlive-xetex
         sudo apt-get install -y texlive-fonts-recommended
-        sudo apt-get install -y texlive-fonts-extra
-        sudo apt-get install -y texlive-latex-extra
+        # sudo apt-get install -y texlive-fonts-extra
+        # sudo apt-get install -y texlive-latex-extra
         sudo apt-get install -y latexmk
-        sudo apt-get install -y texlive-publishers
+        # sudo apt-get install -y texlive-publishers
 
 
     - name: Generate PDF
       run: |
-        pandoc 'docs/TV Studio/tech-spec.md' --pdf-engine=lualatex --shift-heading=-1 -o print/uos-tv-tech-spec.pdf
+        pandoc 'docs/TV Studio/tech-spec.md' --pdf-engine=lualatex --verbose -o print/uos-tv-tech-spec.pdf
 
     - name: Upload PDF
       uses: actions/upload-artifact@v3
