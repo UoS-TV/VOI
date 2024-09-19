@@ -1,0 +1,33 @@
+name: Generate PDF with Pandoc
+
+on:
+  push:
+    branches:
+      - main  # Adjust this to your default branch or target branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Pandoc
+      run: |
+        sudo apt-get install -y pandoc
+        sudo apt-get install -y texlive
+        sudo apt-get install -y texlive-xetex
+        sudo apt-get install -y texlive-fonts-recommended
+        sudo apt-get install -y texlive-fonts-extra
+        sudo apt-get install -y latexmk
+
+    - name: Generate PDF
+      run: |
+        pandoc 'docs/TV Studio/tech-spec.md' --pdf-engine=lualatex --shift-heading=-1 -o print/uos-tv-tech-spec.pdf
+
+    - name: Upload PDF
+      uses: actions/upload-artifact@v3
+      with:
+        name: uos-tv-tech-spec
+        path: print/uos-tv-tech-spec.pdf
