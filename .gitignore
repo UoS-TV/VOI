@@ -461,7 +461,7 @@ TSWLatexianTemp*
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
 
-fonts/
+# fonts/
 docs/TV Studio/diagrams/UoS-DMM-TV_01-Video_V7.pdf
 docs/TV Studio/diagrams/UoS-DMM-TV_02-Multiviewers and Monitoring_V4.pdf
 docs/TV Studio/diagrams/UoS-DMM-TV_03-Audio_V6.pdf
