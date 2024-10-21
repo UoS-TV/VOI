@@ -1,6 +1,6 @@
 # Startup and Shutdown Procedure
 
-These steps are for a partial startup and shutdown. The TV Studio Technical Manager should be contacted for full startup and shutdown as there is critical infrastructure for DMM in the TV Studio. The shutdown procedure is the same as the startup procedure but in reverse.
+These steps are for a partial startup and shutdown. The TV Studio Technical Manager should be contacted for full startup and shutdown as there is critical infrastructure for the department in the TV Studio. The shutdown procedure is the same as the startup procedure but in reverse.
 
 ## TAR
 
@@ -30,9 +30,7 @@ These steps are for a partial startup and shutdown. The TV Studio Technical Mana
 
 ## PCR (Back Row)
 
-1. At the engineering position (far left), reach through the empty rack and switch on the mains switch on the rear panel to the right of the rack.
-
-    ![pcrback](power/pcrback.jpeg)
+1. At the engineering position (far left), switch on the MDU.
 
 2. **To get the tally to work from the vision mixer correctly, the Vision Mixer device in Cerebrum needs to be refreshed:**
 

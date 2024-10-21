@@ -28,4 +28,4 @@ To provide your artist with fold-back you will need to use your own headphones o
 
 ### Fault Finding in Edit 4
 
-![](edit4/image8.png)
+![Flowchart for Fault Finding in Edit 4](ProTools.drawio.svg)

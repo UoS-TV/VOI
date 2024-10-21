@@ -22,9 +22,9 @@
 
 ### Graphics Position
 
-#### Changing dynamic fields
-
 #### Playout
+
+#### Changing dynamic fields
 
 ### EVS Position
 

@@ -34,12 +34,12 @@ The intention of safety legislation today is rather than to control **processes*
 
 ## Safe Use of Filming and Related Equipment
 
-So before you can use the university’s video cameras, lights, sound equipment etc you must know how to assess the risks involved in using the equipment and put in place appropriate control measures so while you or your team are using the equipment.
+So before you can use the university’s cameras, lights, sound equipment etc. you must know how to assess the risks involved in using the equipment and put in place appropriate control measures so while you or your team are using the equipment.
 
 [Risk Assessment](risk-assessment.md)
 
 ## Self Study Documents
 
-To enable you to accurately assess a hazard and enable you to put an appropriate control measure in place you must read, 5 Steps to Risk Assessment by Health and Safety Executive, 06/06 [http://www.hse.gov.uk/pubns/indg163.pdf](http://www.hse.gov.uk/pubns/indg163.pdf)
+To enable you to accurately assess a hazard and enable you to put an appropriate control measure in place you should read, [5 Steps to Risk Assessment by Health and Safety Executive](https://www.hse.gov.uk/simple-health-safety/risk/index.htm).
 
-The BBC explored many possible dangers while filming so you must also read the relevant extracts from the BBC Safety Documents: <https://www.bbc.co.uk/safety/resources/forms-and-documents.html>
+The BBC explored many possible dangers while filming so you should also read the relevant extracts from the BBC Safety Documents: <https://www.bbc.co.uk/safety/resources/aztopics/>

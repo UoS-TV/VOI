@@ -5,25 +5,8 @@
 \usepackage{graphicx} % For including images
 \usepackage{array} % For customizing table columns
 \usepackage{qrcode} % For generating QR codes
-\usepackage{fontspec} % For custom fonts
 \usepackage{datatool} % For data manipulation
 \usepackage{fancyhdr} % For custom page headers and footers
-
-% Define custom font
-\newfontfamily\ProximaNova{fonts/ProximaNova}[
-  UprightFont = *Regular ,
-  ItalicFont = *RegularItalic ,
-  BoldFont = *Bold ,
-  BoldItalicFont = *BoldItalic ,
-  FontFace = {l}{n}{*Light},
-  FontFace = {l}{it}{*LightItalic},
-  FontFace = {sb}{n}{*Semibold},
-  FontFace = {sb}{it}{*SemiboldItalic},
-  FontFace = {eb}{n}{*Black},
-  FontFace = {eb}{it}{*BlackItalic},
-  Extension = .otf ]
-
-\setmainfont{ProximaNova}
 
 % Define page style with logo in the footer
 \fancypagestyle{logo-footer}{

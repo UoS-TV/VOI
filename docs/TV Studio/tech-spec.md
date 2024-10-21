@@ -20,14 +20,6 @@ include-after:
 geometry:
 - a4paper
 - margin=1in
-# mainfont: ProximaNova
-# mainfontoptions:
-# - Path = print/fonts/
-# - Extension = .otf
-# - UprightFont = *Regular
-# - ItalicFont = *RegularItalic
-# - BoldFont = *Bold
-# - BoldItalicFont = *BoldItalic
 ---
 <!-- pandoc 'docs/TV Studio/tech-spec.md' --pdf-engine=lualatex --shift-heading=-1 -o print/uos-tv-tech-spec.pdf -->
 
