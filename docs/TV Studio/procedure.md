@@ -16,9 +16,13 @@ These steps are for a partial startup and shutdown. The TV Studio Technical Mana
 
     ![tarmons](power/tarmons.jpeg)
 
-## PCR (Front Row)
+4. **IMPORTANT!** When shutting things down, do not shut anything else down apart from the equipment listed above. Other parts of the department rely on the TV Studio's systems running.
 
-1. In the rack closest to the TAR, turn on the vision mixer panel.
+## PCR
+
+### Front Row
+
+1. In the rack closest to the TAR, turn on the 'POWER A' of the Sony vision mixer panel.
 
     ![vismix-panel](power/vismix-panel.jpeg)
 
@@ -28,7 +32,7 @@ These steps are for a partial startup and shutdown. The TV Studio Technical Mana
 
 3. Turn on any monitors that aren’t on.
 
-## PCR (Back Row)
+### Back Row
 
 1. At the engineering position (far left), switch on the MDU.
 
