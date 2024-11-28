@@ -3,10 +3,27 @@
 % Load necessary packages
 \usepackage[a6paper, landscape, top=0.2in, bottom=0.8in, left=0.2in, right=0.2in]{geometry} % Adjust page layout
 \usepackage{graphicx} % For including images
+\usepackage{fontspec} % For custom fonts
 \usepackage{array} % For customizing table columns
 \usepackage{qrcode} % For generating QR codes
 \usepackage{datatool} % For data manipulation
 \usepackage{fancyhdr} % For custom page headers and footers
+
+% Define custom font
+\newfontfamily\ProximaNova{fonts/ProximaNova}[
+  UprightFont = *Regular ,
+  ItalicFont = *RegularItalic ,
+  BoldFont = *Bold ,
+  BoldItalicFont = *BoldItalic ,
+  FontFace = {l}{n}{*Light},
+  FontFace = {l}{it}{*LightItalic},
+  FontFace = {sb}{n}{*Semibold},
+  FontFace = {sb}{it}{*SemiboldItalic},
+  FontFace = {eb}{n}{*Black},
+  FontFace = {eb}{it}{*BlackItalic},
+  Extension = .otf ]
+
+\setmainfont{ProximaNova} % Set default font to Proxima Nova
 
 % Define page style with logo in the footer
 \fancypagestyle{logo-footer}{
